@@ -1,0 +1,11 @@
+{
+    "dosubmitatlaunch": true,
+    "scheduled_time": "0 0 11 * * *",
+    "accounts":
+    [
+        {
+            "username": "",
+            "password": ""
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "thosautomation",
+  "version": "1.0.0",
+  "description": "Automatically submit Health and Travel Reports on Tsinghua Online Services.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "CodingEric",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^98.0.0",
+    "node-schedule": "^2.1.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
