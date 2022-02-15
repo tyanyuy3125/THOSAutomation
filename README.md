@@ -1,10 +1,10 @@
 # THOSAutomation
 
-Automatically submit Students Health & Location Daily Report of THOS.
+Automatically submit Students' Health & Location Daily Report of Tsinghua Online Service System (THOS).
 
 Based on Node.js.
 
-让清华大学在线服务平台（THOS）的每日健康及出行情况打卡实现工业现代化的自动化。
+让清华大学在线服务系统（THOS）的每日健康及出行情况打卡实现工业现代化的自动化。
 
 基于 Node.js 开发。
 
