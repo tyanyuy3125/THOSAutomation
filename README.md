@@ -1,5 +1,9 @@
 # THOSAutomation
 
+Automatically submit Students Health & Location Daily Report of THOS.
+
+Based on Node.js.
+
 让清华大学在线服务平台（THOS）的每日健康及出行情况打卡实现工业现代化的自动化。
 
 基于 Node.js 开发。
@@ -25,6 +29,11 @@ npm install
 ```
 以补全依赖。
 
+如果没有安装 PM2 ，则执行
+```
+npm install pm2 -g
+```
+
 配置 config.json：
 
 |条目|作用|
@@ -44,7 +53,7 @@ npm install
 │ │ └───────── 时，取值：0 - 23
 │ └─────────── 分，取值：0 - 59
 └───────────── 秒，取值：0 - 59（可选）
-使用*号则表示重复，例如 0 0 11 * * * 表示每天 11 点整打卡。
+使用 * 号则表示重复，例如 0 0 11 * * * 表示每天 11 点整打卡。
 ```
 
 打卡账户的格式如下：
@@ -68,6 +77,14 @@ npm install
 pm2 start app.js
 ```
 即可启动。
+
+## For Int'l Students
+
+Change the address of L44 in app.js to:
+```
+https://thos.tsinghua.edu.cn/fp/view?m=fp#from=hall&serveID=f7b71450-5cd9-47c1-8e45-5320b8bd2e18&act=fp/serveapply
+```
+The rest steps are the same as above.
 
 ## 声明
 
